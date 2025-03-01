@@ -15,65 +15,69 @@ body {
 }
 
 .navbar {
-    margin-top: -90px;
-    gap: 20px;
-    display: flex;
-    justify-content: right;
-    padding: 10px 10px;
-    z-index: 1;
+  margin-top: -90px;
+  gap: 20px;
+  display: flex;
+  justify-content: right;
+  padding: 10px 10px;
+  z-index: 1;
 }
 
 .navbar p {
-    padding: 10px 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    font-family: "Roboto", sans-serif;
-    color: #fff;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 .navbar p:hover {
-    background-color: #b2b8ee;
+  background-color: #b2b8ee;
 }
 
 .content {
-    width: 100%;
-    display: flex;
-    padding: 60px;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  padding: 60px;
+  flex-direction: column;
 }
 .content h1 {
-    min-height: 20vh;
-    font-size: 65px;
-    color: #fff;
-    font-weight: 400;
-    text-align: right;
+  min-height: 20vh;
+  font-size: 65px;
+  color: #fff;
+  font-weight: 400;
+  text-align: right;
 }
 .content p {
-    font-size: 22px;
-    color: #fff;
-    padding: 150px 50px;
+  font-size: 22px;
+  color: #fff;
+  padding: 150px 50px;
 }
 
 .content p1 {
-    font-size: 16px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
 }
 
 .logo {
-    margin-top: 10px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    width: 100px;
-    height: 100px;
-    padding: 10px 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 100px;
+  height: 100px;
+  padding: 10px 10px;
+}
+
+.name {
+    color: blue;
 }
