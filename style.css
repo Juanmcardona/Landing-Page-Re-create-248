@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(248.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ 
+*{
+    margin: 200;
+    padding: 200;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    margin-top: -90px;
+    gap: 20px;
+    display: flex;
+    justify-content: right;
+    padding: 10px 10px;
+    z-index: 1;
+}
+
+.navbar p {
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.navbar p:hover {
+    background-color: #b2b8ee;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+}
+.content h1 {
+    min-height: 20vh;
+    font-size: 65px;
+    color: #fff;
+    font-weight: 400;
+    text-align: right;
+}
+.content p {
+    font-size: 22px;
+    color: #fff;
+    padding: 150px 50px;
+}
+
+.content p1 {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.logo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+}
